@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: poppins;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 100% !important;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.navbar-container{
+    width: 100%;
+    height: 100%;
+    padding: 0px 40px;
+}
+.navbar{
+    background-color: transparent;
+}
+.navbar-brand{
+    font-size: 60px;
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #3E46FF;
+}
+.collapse ul{
+    width: 100% !important;
+    justify-content: end;
+    /* background-color: rgb(253, 122, 122); */
+}
